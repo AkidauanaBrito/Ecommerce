@@ -1,0 +1,232 @@
+{
+  "nome": "AkiNat\u0027s Place",
+  "categorias": [
+    {
+      "nome": "Feminino",
+      "produtos": [
+        {
+          "nome": "blusa",
+          "preco": 50.0,
+          "quantDisponivel": 8,
+          "vendedor": "aki",
+          "statusProduto": "PREPARANDO"
+        },
+        {
+          "nome": "calça",
+          "preco": 200.0,
+          "quantDisponivel": 12,
+          "vendedor": "aki",
+          "statusProduto": "PREPARANDO"
+        }
+      ]
+    },
+    {
+      "nome": "Masculino",
+      "produtos": [
+        {
+          "nome": "camisa",
+          "preco": 100.0,
+          "quantDisponivel": 2,
+          "vendedor": "ped",
+          "statusProduto": "PREPARANDO"
+        }
+      ]
+    },
+    {
+      "nome": "Infantil",
+      "produtos": []
+    },
+    {
+      "nome": "Cal�ados",
+      "produtos": [
+        {
+          "nome": "sandalia",
+          "preco": 300.0,
+          "quantDisponivel": 4,
+          "vendedor": "aki",
+          "categoria": "Cal�ados",
+          "statusProduto": "PREPARANDO"
+        },
+        {
+          "nome": "sapato",
+          "preco": 124.0,
+          "quantDisponivel": 10,
+          "vendedor": "aki",
+          "categoria": "Cal�ados",
+          "statusProduto": "PREPARANDO"
+        }
+      ]
+    },
+    {
+      "nome": "Acess�rios",
+      "produtos": [
+        {
+          "nome": "brinco",
+          "preco": 35.0,
+          "quantDisponivel": 8,
+          "vendedor": "aki",
+          "categoria": "Acess�rios",
+          "statusProduto": "PREPARANDO"
+        }
+      ]
+    }
+  ],
+  "usuarios": [
+    {
+      "tipo": "adm",
+      "login": "nath",
+      "senha": "123",
+      "nome": "Nathalia"
+    },
+    {
+      "tipo": "vendedor",
+      "produtos": [
+        {
+          "nome": "blusa",
+          "preco": 50.0,
+          "quantDisponivel": 8,
+          "vendedor": "aki",
+          "categoria": "Feminino",
+          "statusProduto": "PREPARANDO"
+        },
+        {
+          "nome": "calça",
+          "preco": 200.0,
+          "quantDisponivel": 15,
+          "vendedor": "aki",
+          "categoria": "Feminino",
+          "statusProduto": "PREPARANDO"
+        },
+        {
+          "nome": "brinco",
+          "preco": 35.0,
+          "quantDisponivel": 8,
+          "vendedor": "aki",
+          "categoria": "Acess�rios",
+          "statusProduto": "PREPARANDO"
+        },
+        {
+          "nome": "sandalia",
+          "preco": 300.0,
+          "quantDisponivel": 4,
+          "vendedor": "aki",
+          "categoria": "Cal�ados",
+          "statusProduto": "PREPARANDO"
+        },
+        {
+          "nome": "sapato",
+          "preco": 124.0,
+          "quantDisponivel": 10,
+          "vendedor": "aki",
+          "categoria": "Cal�ados",
+          "statusProduto": "PREPARANDO"
+        }
+      ],
+      "login": "aki",
+      "senha": "123",
+      "nome": "Akidauana"
+    },
+    {
+      "tipo": "cliente",
+      "pedidos": [
+        {
+          "produtos": [
+            {
+              "nome": "blusa",
+              "preco": 50.0,
+              "quantDisponivel": 2,
+              "vendedor": "aki",
+              "categoria": "Feminino",
+              "statusProduto": "PREPARANDO"
+            }
+          ],
+          "statusPedido": "PAGAMENTO_APROVADO",
+          "data": "01/06/2022"
+        },
+        {
+          "produtos": [
+            {
+              "nome": "sandalia",
+              "preco": 300.0,
+              "quantDisponivel": 1,
+              "vendedor": "aki",
+              "categoria": "Cal�ados",
+              "statusProduto": "PREPARANDO"
+            },
+            {
+              "nome": "brinco",
+              "preco": 35.0,
+              "quantDisponivel": 2,
+              "vendedor": "aki",
+              "categoria": "Acess�rios",
+              "statusProduto": "PREPARANDO"
+            }
+          ],
+          "statusPedido": "PAGAMENTO_APROVADO",
+          "data": "28/05/2022"
+        }
+      ],
+      "login": "jem",
+      "senha": "123",
+      "nome": "Jemerson"
+    },
+    {
+      "tipo": "cliente",
+      "pedidos": [
+        {
+          "produtos": [
+            {
+              "nome": "calça",
+              "preco": 200.0,
+              "quantDisponivel": 2,
+              "vendedor": "aki",
+              "categoria": "Feminino",
+              "statusProduto": "PREPARANDO"
+            }
+          ]
+        },
+        {
+          "produtos": [
+            {
+              "nome": "camisa",
+              "preco": 100.0,
+              "quantDisponivel": 1,
+              "vendedor": "ped",
+              "categoria": "Masculino",
+              "statusProduto": "PREPARANDO"
+            },
+            {
+              "nome": "calça",
+              "preco": 200.0,
+              "quantDisponivel": 1,
+              "vendedor": "aki",
+              "categoria": "Feminino",
+              "statusProduto": "EM_TRANSITO"
+            }
+          ],
+          "statusPedido": "PAGAMENTO_APROVADO",
+          "data": "05/06/2022"
+        }
+      ],
+      "login": "ger",
+      "senha": "123",
+      "nome": "geraldo"
+    },
+    {
+      "tipo": "vendedor",
+      "produtos": [
+        {
+          "nome": "camisa",
+          "preco": 100.0,
+          "quantDisponivel": 2,
+          "vendedor": "ped",
+          "categoria": "Masculino",
+          "statusProduto": "PREPARANDO"
+        }
+      ],
+      "login": "ped",
+      "senha": "123",
+      "nome": "pedro"
+    }
+  ]
+}
