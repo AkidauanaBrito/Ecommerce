@@ -1,2 +1,2 @@
-Arquivo para explicar o que existe no projeto.
-Utilizando Java. TESTANDO
+# Ecommerce
+Projeto desenvolvido durante a disciplina de "Programação II" com foco no aprendizado de JAVA.  
